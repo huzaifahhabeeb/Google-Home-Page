@@ -15,11 +15,22 @@ header {
     justify-content: space-between;
     padding: 14px;
     gap: 14px;
-
 }
 
 .nav-container {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.profile-pic {
+    border: none;
+    background: transparent;
+}
+
+.profile-pic img {
+    width: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+    
 }
