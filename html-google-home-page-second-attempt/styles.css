@@ -157,3 +157,33 @@ header {
 .language-text {
     font-size: 0.7rem;
 }
+
+footer {
+    background-color: rgb(243, 243, 243);
+    font-size: 0.8rem;
+}
+
+.hr-one {
+    opacity: 0.3;
+    text-decoration-thickness: 4rem;
+}
+
+footer > div {
+
+    padding: 1rem;
+}
+
+.footer-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 1rem; */
+    gap: 1rem;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1rem;
+}
