@@ -13,14 +13,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px;
-    gap: 14px;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .profile-pic {
@@ -29,7 +29,7 @@ header {
 }
 
 .profile-pic img {
-    width: 40px;
+    width: 30px;
     overflow: hidden;
     border-radius: 100%;
     
