@@ -7,6 +7,19 @@
 
 body {
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .text-link {
@@ -62,5 +75,35 @@ header {
     width: 30px;
     overflow: hidden;
     border-radius: 100%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    /* gap: 1rem; */
+    padding: 1rem;
+    border: 1px solid rgba(160, 159, 159, 0.362);
+    border-radius: 1rem;
     
 }
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.search-bar:hover,
+.search-bar:focus-within {
+    box-shadow: 0 0 20px 3px rgba(196, 194, 194, 0.362) ;
+}
+
+.mic-cam {
+    display: flex;
+    gap: 1rem;
+}
+
